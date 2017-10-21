@@ -1,10 +1,4 @@
-/*CREATE DATABASE jack;*/
-/*CHARACTER SET utf8
-COLLATE utf8_general_ci;*/
-
-DROP TABLE IF EXISTS jack.renters;
-DROP TABLE IF EXISTS jack.payments;
-DROP TABLE IF EXISTS jack.houses;
+CREATE DATABASE jack;
 
 CREATE TABLE jack.houses (
   ID             INTEGER AUTO_INCREMENT PRIMARY KEY,

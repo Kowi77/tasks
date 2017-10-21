@@ -59,11 +59,9 @@ public class Task2Main {
             switch (operators.get(i)) {
                 case '+':
                     numbers.set(i + 1, numbers.get(i) + numbers.get(i + 1));
-                    numbers.set(i, null);
                     break;
                 case '-':
                     numbers.set(i + 1, numbers.get(i) - numbers.get(i + 1));
-                    numbers.set(i, null);
                     break;
             }
         }
